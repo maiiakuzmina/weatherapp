@@ -1,0 +1,29 @@
+body {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+}
+.current-weather {
+  color: grey;
+  text-align: center;
+}
+.container {
+}
+.row {
+  text-align: center;
+}
+.sun {
+  font-size: 50px;
+  color: yellow;
+  transition: all 150ms ease-in-out;
+  margin: 20px 0px;
+}
+
+.sun:hover {
+  color: blue;
+  font-size: 55px;
+}
+
+.location-pin {
+  font-size: 20px;
+  margin: 20px 0px;
+}
